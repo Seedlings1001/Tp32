@@ -1,0 +1,2308 @@
+[ 2019-07-21T11:58:50+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.022001s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.002000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.001001s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T11:58:54+08:00 ] 127.0.0.1 /index.php/Index/Index/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 2 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:01:58+08:00 ] 127.0.0.1 /index.php/Index/Index/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 2 ORDER BY product_index, id [ RunTime:0.000000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:02:06+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.002000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.001001s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:02:23+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001001s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-07-21T12:03:22+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.000000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:03:24+08:00 ] 127.0.0.1 /index.php/Index/Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002001s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.000000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:03:28+08:00 ] 127.0.0.1 /index.php/Index/Index/introduct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:03:31+08:00 ] 127.0.0.1 /index.php/Index/Index/cases.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:03:33+08:00 ] 127.0.0.1 /index.php/Index/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002001s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T12:03:36+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_product ORDER BY product_index, id [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T12:03:39+08:00 ] 127.0.0.1 /index.php/Index/Index/order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:03:42+08:00 ] 127.0.0.1 /index.php/Index/Index/contact.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:03:45+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T12:06:46+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.000000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:06:57+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:07:00+08:00 ] 127.0.0.1 /index.php/Index/Index/pro_detail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:pro_detail
+
+[ 2019-07-21T12:07:39+08:00 ] 127.0.0.1 /index.php/Index/Index/pro_detail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:pro_detail
+
+[ 2019-07-21T12:07:41+08:00 ] 127.0.0.1 /index.php/Index/Index/pro_detail.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:pro_detail
+
+[ 2019-07-21T12:07:44+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.001001s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:07:47+08:00 ] 127.0.0.1 /index.php/Index/Product/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:08:34+08:00 ] 127.0.0.1 /index.php/Index/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:08:41+08:00 ] 127.0.0.1 /index.php/Index/Index/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 2 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:08:44+08:00 ] 127.0.0.1 /index.php/Index/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:09:10+08:00 ] 127.0.0.1 /index.php/Index/Device/detail/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp0_product WHERE id = 4 [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:11:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-07-21T12:12:16+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T12:12:24+08:00 ] 127.0.0.1 /index.php/Index/Index/index/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 5 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:14:08+08:00 ] 127.0.0.1 /index.php/index/device/about.html
+ERR: 非法操作:about
+
+[ 2019-07-21T12:14:28+08:00 ] 127.0.0.1 /index.php/index/device/about.html
+ERR: 非法操作:about
+
+[ 2019-07-21T12:14:36+08:00 ] 127.0.0.1 /index.php/index/device/about.html
+ERR: 非法操作:about
+
+[ 2019-07-21T12:39:14+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\IndexController.class.php 第 21 行.
+
+[ 2019-07-21T12:39:35+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\IndexController.class.php 第 21 行.
+ERR: Invalid product name : Product
+
+[ 2019-07-21T12:40:49+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\IndexController.class.php 第 21 行.
+
+[ 2019-07-21T12:40:59+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\IndexController.class.php 第 26 行.
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:43:10+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\IndexController.class.php 第 26 行.
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:43:12+08:00 ] 127.0.0.1 /index.php/Index/Index/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 2 ORDER BY product_index, id [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.000000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\IndexController.class.php 第 26 行.
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:43:14+08:00 ] 127.0.0.1 /index.php/Index/Product/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 2 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:43:15+08:00 ] 127.0.0.1 /index.php/Index/Product/detail/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\ProductController.class.php 第 27 行.
+SQL: SELECT * FROM cp_product WHERE id = 3 [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:43:16+08:00 ] 127.0.0.1 /index.php/Index/Product/index/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 3 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:43:18+08:00 ] 127.0.0.1 /index.php/Index/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:43:21+08:00 ] 127.0.0.1 /index.php/Index/Index/order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:43:25+08:00 ] 127.0.0.1 /index.php/Index/Index/order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:43:29+08:00 ] 127.0.0.1 /index.php/Index/Device/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\DeviceController.class.php 第 16 行.
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:43:31+08:00 ] 127.0.0.1 /index.php/Index/Index/contact.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM contact_index WHERE id = 1 [ RunTime:0.002001s ]
+NOTIC: [8] iconv(): Detected an illegal character in input string D:\www\wwwroot\Think32\Application\Index\Service\CompanyService.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:43:33+08:00 ] 127.0.0.1 /index.php/Index/Index/order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM about_index WHERE id = 1 [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:43:53+08:00 ] 127.0.0.1 /index.php/Index/Index/order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:53:07+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.004000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 19 行.
+SQL: SELECT * FROM cp_product ORDER BY product_index, id [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:53:08+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.005000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 19 行.
+SQL: SELECT * FROM cp_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:53:10+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 19 行.
+SQL: SELECT * FROM cp_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:53:12+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 19 行.
+SQL: SELECT * FROM cp_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:53:13+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 19 行.
+SQL: SELECT * FROM cp_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:53:13+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 19 行.
+SQL: SELECT * FROM cp_product WHERE type_id2 = 3 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:53:14+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 19 行.
+SQL: SELECT * FROM cp_product WHERE type_id2 = 3 ORDER BY product_index, id [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:53:25+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 19 行.
+SQL: SELECT * FROM cp_product WHERE type_id2 = 2 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T12:53:25+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 19 行.
+SQL: SELECT * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:53:26+08:00 ] 127.0.0.1 /index.php/Index/Half/detail/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 27 行.
+SQL: SELECT * FROM cp_product WHERE id = 1 [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 32 行.
+SQL: SELECT * FROM cp_product WHERE id = 1 [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:53:41+08:00 ] 127.0.0.1 /index.php/Index/Half/detail/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 27 行.
+SQL: SELECT * FROM cp_product WHERE id = 1 [ RunTime:0.000000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 32 行.
+SQL: SELECT count(*) FROM cp_product [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:54:15+08:00 ] 127.0.0.1 /index.php/Index/Half/detail/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 27 行.
+SQL: SELECT * FROM cp_product WHERE id = 1 [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 32 行.
+SQL: SELECT count(*) FROM cp_product [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:54:18+08:00 ] 127.0.0.1 /index.php/Index/Half/detail/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 27 行.
+SQL: SELECT * FROM cp_product WHERE id = 1 [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 32 行.
+SQL: SELECT count(*) FROM cp_product [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:54:20+08:00 ] 127.0.0.1 /index.php/Index/Half/detail/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 27 行.
+SQL: SELECT * FROM cp_product WHERE id = 1 [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 32 行.
+SQL: SELECT count(*) FROM cp_product [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:54:22+08:00 ] 127.0.0.1 /index.php/Index/Half/detail/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 27 行.
+SQL: SELECT * FROM cp_product WHERE id = 1 [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 32 行.
+SQL: SELECT count(*) FROM cp_product [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:54:30+08:00 ] 127.0.0.1 /index.php/Index/Half/detail/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 27 行.
+SQL: SELECT * FROM cp_product WHERE id = 1 [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 32 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:56:00+08:00 ] 127.0.0.1 /index.php/Index/Half/detail/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 27 行.
+SQL: SELECT * FROM cp_product WHERE id = 1 [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 32 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+
+[ 2019-07-21T12:56:10+08:00 ] 127.0.0.1 /index.php/Index/Half/detail/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::detail() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 27 行.
+SQL: SELECT * FROM cp_product WHERE id = 1 [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-07-21T12:57:25+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 19 行.
+SQL: SELECT * FROM cp_product WHERE type_id2 = 2 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:57:30+08:00 ] 127.0.0.1 /index.php/Index/Product/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT * FROM cp1_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:57:31+08:00 ] 127.0.0.1 /index.php/Index/Product/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 2 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:57:32+08:00 ] 127.0.0.1 /index.php/Index/Product/index/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 5 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T12:57:36+08:00 ] 127.0.0.1 /index.php/Index/Product/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp1_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\ProductController.class.php 第 19 行.
+SQL: SELECT * FROM cp1_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T12:57:46+08:00 ] 127.0.0.1 /index.php/Index/Device/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\DeviceController.class.php 第 16 行.
+SQL: SELECT * FROM cp0_product ORDER BY product_index, id [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:19:53+08:00 ] 127.0.0.1 /index.php/Index/Device/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\DeviceController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Index\Service\ProductService::index(), called in D:\www\wwwroot\Think32\Application\Index\Controller\DeviceController.class.php on line 18 and defined D:\www\wwwroot\Think32\Application\Index\Service\ProductService.class.php 第 9 行.
+NOTIC: [2] Missing argument 3 for Index\Service\ProductService::index(), called in D:\www\wwwroot\Think32\Application\Index\Controller\DeviceController.class.php on line 18 and defined D:\www\wwwroot\Think32\Application\Index\Service\ProductService.class.php 第 9 行.
+NOTIC: [8] Undefined variable: productName D:\www\wwwroot\Think32\Application\Index\Service\ProductService.class.php 第 11 行.
+ERR: Invalid product name : 
+
+[ 2019-07-21T13:20:29+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+SQL: SELECT TOP 4 * FROM [select top 4 * from cp_product order by 
+                product_index,id]. AS [%$##@_Alias] WHERE id not in (select top 4 
+                id from cp_product order by product_index,id) ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:20:32+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+SQL: SELECT TOP 4 * FROM [select top 4 * from cp_product order by 
+                product_index,id]. AS [%$##@_Alias] WHERE id not in (select top 4 
+                id from cp_product order by product_index,id) ORDER BY product_index, id [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:20:36+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+SQL: SELECT TOP 4 * FROM [select top 4 * from cp_product WHERE type_id2 = 1 order by 
+                product_index,id]. AS [%$##@_Alias] WHERE id not in (select top 4 
+                id from cp_product WHERE type_id2 = 1 order by product_index,id) ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T13:20:38+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+SQL: SELECT TOP 4 * FROM [select top 4 * from cp_product WHERE type_id2 = 2 order by 
+                product_index,id]. AS [%$##@_Alias] WHERE id not in (select top 4 
+                id from cp_product WHERE type_id2 = 2 order by product_index,id) ORDER BY product_index, id [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-07-21T13:21:13+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM [select top 4 * from cp_product WHERE type_id2 = 2 order by 
+                product_index,id]. AS [%$##@_Alias] WHERE id not in (select top 4 
+                id from cp_product WHERE type_id2 = 2 order by product_index,id) ORDER BY product_index, id [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:21:53+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+SQL: SELECT TOP 4 * FROM [select top 4 * from cp_product WHERE type_id2 = 2 order by 
+                product_index,id]. AS [%$##@_Alias] WHERE id not in (select top 4 
+                id from cp_product WHERE type_id2 = 2 order by product_index,id) ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:22:05+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:22:13+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:22:20+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:22:28+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:22:47+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:24:26+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:25:16+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:25:49+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html?page=2&page_size=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:26:22+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html?page=3&page_size=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:26:49+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html?page=3&page_size=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:27:44+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html?page=3&page_size=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:28:00+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html?page=2&page_size=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+
+[ 2019-07-21T13:32:41+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html?page=2&page_size=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+SQL: SELECT TOP 4 * FROM [select top 8 * from cp_product order by 
+                product_index,id]. AS [%$##@_Alias] WHERE id not in (select top 4 
+                id from cp_product order by product_index,id) ORDER BY product_index, id [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:32:49+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:40:56+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:41:18+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 21 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-07-21T13:41:58+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T13:42:49+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.000000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:43:23+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-07-21T13:44:39+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: total D:\www\wwwroot\Think32\Application\Runtime\Cache\Index\f52ee5e76f38d0cda81630657455b83c.php 第 55 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:44:49+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.000000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:45:23+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:45:54+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:46:51+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:47:06+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:47:08+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 5 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:47:11+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 3 ORDER BY product_index, id [ RunTime:0.000000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:47:12+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 3 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:47:13+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 3 ORDER BY product_index, id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:47:13+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 3 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T13:47:15+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:47:17+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 2 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:50:22+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 2 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:50:24+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.000000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:50:25+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.004001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:50:26+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:50:27+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:50:27+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.000000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T13:50:28+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 1 ORDER BY product_index, id [ RunTime:0.001001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:50:30+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 3 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-07-21T13:50:32+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 5 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:50:33+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.001001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:50:54+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.000000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+
+[ 2019-07-21T13:51:17+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.001001s ]
+
+[ 2019-07-21T13:52:01+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+
+[ 2019-07-21T13:52:14+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+
+[ 2019-07-21T13:52:33+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+
+[ 2019-07-21T13:52:51+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.001001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+
+[ 2019-07-21T13:53:38+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+
+[ 2019-07-21T13:53:59+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+
+[ 2019-07-21T13:54:18+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.001001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+ERR: 
+ [ SQL语句 ] : SELECT count(*) AS count WHERE type_id2 = 4 FROM cp_product
+ERR: 
+ [ SQL语句 ] : SELECT count(*) AS count WHERE type_id2 = 4 FROM cp_product
+
+[ 2019-07-21T13:54:37+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+ERR: 
+ [ SQL语句 ] : SELECT count(*) AS count WHERE type_id2 = 4 FROM cp_product
+ERR: 
+ [ SQL语句 ] : SELECT count(*) AS count WHERE type_id2 = 4 FROM cp_product
+
+[ 2019-07-21T13:55:45+08:00 ] 127.0.0.1 /index.php/Index/Half/index/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product WHERE type_id2 = 4 ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product WHERE type_id2 = 4 [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-07-21T13:55:48+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.002000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2019-07-21T13:55:52+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html?page_size=4&page=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM [select top 8 * from cp_product order by 
+                product_index,id]. AS [%$##@_Alias] WHERE id not in (select top 4 
+                id from cp_product order by product_index,id) ORDER BY product_index, id [ RunTime:0.003000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2019-07-21T13:55:54+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html?page_size=4&page=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM [select top 8 * from cp_product order by 
+                product_index,id]. AS [%$##@_Alias] WHERE id not in (select top 4 
+                id from cp_product order by product_index,id) ORDER BY product_index, id [ RunTime:0.004000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-07-21T13:55:56+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html?page_size=4&page=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.002001s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-07-21T13:55:57+08:00 ] 127.0.0.1 /index.php/Index/Half/index.html?page_size=4&page=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM cp_type WHERE type_state=0 ORDER BY type_index, type_id [ RunTime:0.003000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::index() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Controller\HalfController.class.php 第 23 行.
+SQL: SELECT TOP 4 * FROM cp_product ORDER BY product_index, id [ RunTime:0.001000s ]
+NOTIC: [8192] Non-static method Index\Service\ProductService::total() should not be called statically, assuming $this from incompatible context D:\www\wwwroot\Think32\Application\Index\Traits\Paginater.class.php 第 13 行.
+SQL: SELECT count(*) AS count FROM cp_product [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+

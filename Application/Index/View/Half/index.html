@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<include file="Common:header" />
+
+	<body>
+		<!--头部-->
+		<div class="head">
+			<h3>北京盛达龙源不锈钢水箱有限公司</h3>
+			<a class="top_nav top_menu"></a>
+		</div>
+		<include file="Common:menu" />
+		
+		<!--顶部栏-->
+		<div class="top_bar">
+			<a class="bar_l"></a>
+			<h3>半产品展示</h3>
+		</div>
+		
+		<div class="product content">
+			<ul class="product_nav">
+				<li class="tab"><a href="{:U('index')}">全部</a></li>
+				<foreach name="category" item="vo" key="k">
+					<li><a href="{:U('index?id='.$vo['type_id'])}">{$vo.type_name}</a></li>
+				</foreach>
+			</ul>
+			<div class="product_list">
+				<foreach name="product" item="vo" key="k">
+					<if condition="($k eq 0)">
+						<a class="now" href="{:U('detail?id='.$vo['id'])}">
+							<img src="{$vo.picurl1}">
+							<span>{$vo.product_name}</span>
+						</a>
+						<else />
+						<a href="{:U('detail?id='.$vo['id'])}">
+							<img src="{$vo.picurl1}">
+							<span>{$vo.product_name}</span>
+						</a>
+					</if>
+				</foreach>
+			</div>
+			<if condition="($page.pages neq 0)">
+				<div class="page">
+					<a href="?page_size={$page.page_size}&page={$page.first_page}">首页</a>
+					<a href="?page_size={$page.page_size}&page={$page.prev_page}">上一页</a>
+					<p><span class="page_now">{$page.current_page}</span>/<span>{$page.pages}</span></p>
+					<a href="?page_size={$page.page_size}&page={$page.next_page}">下一页</a>
+					<a href="?page_size={$page.page_size}&page={$page.pages}">末页</a>
+				</div>
+			</if>
+		</div>
+
+		<div class="index_bot">
+			<a><img src="__PUBLIC__/style//images/icon-3.png"><span>在线QQ</span></a>
+			<i class="line_throw"></i>
+			<a><img src="__PUBLIC__/style//images/icon-4.png"><span>在线电话</span></a>
+			<i class="line_throw"></i>
+			<a class="scroll_top"><img src="__PUBLIC__/style//images/icon-5.png"><span>返回顶部</span></a>
+		</div>
+
+		<script src="__PUBLIC__/style//js/swiper.min.js"></script>
+		<script>
+
+			$(document).ready(function() {
+				$('.top_nav').click(function() {
+					if($(this).hasClass('top_menu')) {
+						$(this).removeClass('top_menu')
+						$(this).addClass('top_close')
+						$('.menu_nav').show()
+					} else {
+						$(this).removeClass('top_close')
+						$(this).addClass('top_menu')
+						$('.menu_nav').hide()
+					}
+				})
+				$('.scroll_top').click(function(){
+					window.scrollTo(0,0);
+				})
+			})
+		</script>
+	</body>
+
+</html>

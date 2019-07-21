@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+	<include file="Common:header" />
+
+	<body>
+		<!--头部-->
+		<div class="head">
+			<h3>北京盛达龙源不锈钢水箱有限公司</h3>
+			<a class="top_nav top_menu"></a>
+		</div>
+		<include file="Common:menu" />
+		
+		<!--顶部栏-->
+		<div class="top_bar">
+			<a class="bar_l"></a>
+			<h3>公司简介</h3>
+		</div>
+		
+		<!--公司介绍-->
+		<div class="index_comp" style="padding: 1rem 0 7rem;">
+			<div class="index_comp_txt content">
+				<img src="__PUBLIC__/style/images/comp.jpg" />
+				<foreach name="introduct" item="vo" key="k">
+					<p>{$vo}</p>
+				</foreach>
+			</div>
+		</div>
+
+		<div class="index_bot">
+			<a><img src="__PUBLIC__/style/images/icon-3.png"><span>在线QQ</span></a>
+			<i class="line_throw"></i>
+			<a><img src="__PUBLIC__/style/images/icon-4.png"><span>在线电话</span></a>
+			<i class="line_throw"></i>
+			<a class="scroll_top"><img src="__PUBLIC__/style/images/icon-5.png"><span>返回顶部</span></a>
+		</div>
+
+		<script src="__PUBLIC__/style/js/swiper.min.js"></script>
+		<script>
+
+			$(document).ready(function() {
+				$('.top_nav').click(function() {
+					if($(this).hasClass('top_menu')) {
+						$(this).removeClass('top_menu')
+						$(this).addClass('top_close')
+						$('.menu_nav').show()
+					} else {
+						$(this).removeClass('top_close')
+						$(this).addClass('top_menu')
+						$('.menu_nav').hide()
+					}
+				})
+				
+				$('.scroll_top').click(function(){
+					window.scrollTo(0,0);
+				})
+			})
+		</script>
+	</body>
+
+</html>
