@@ -1,9 +1,17 @@
 <if condition="($page.pages neq 0)">
     <div class="page">
         <a href="?page_size={$page.page_size}&page={$page.first_page}">首页</a>
-        <a href="?page_size={$page.page_size}&page={$page.prev_page}">上一页</a>
+        <if condition="($page.prev_page neq 0)">
+            <a href="?page_size={$page.page_size}&page={$page.prev_page}">上一页</a>
+            <else />
+            <a href="">上一页</a>
+        </if>
         <p><span class="page_now">{$page.current_page}</span>/<span>{$page.pages}</span></p>
-        <a href="?page_size={$page.page_size}&page={$page.next_page}">下一页</a>
+        <if condition="($page.next_page neq 0)">
+            <a href="?page_size={$page.page_size}&page={$page.next_page}">下一页</a>
+            <else />
+            <a href="">下一页</a>
+        </if>
         <a href="?page_size={$page.page_size}&page={$page.pages}">末页</a>
     </div>
 </if>

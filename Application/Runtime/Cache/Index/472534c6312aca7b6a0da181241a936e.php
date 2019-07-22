@@ -52,9 +52,13 @@
 			</div>
 			<?php if(($page["pages"] != 0)): ?><div class="page">
         <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["first_page"]); ?>">首页</a>
-        <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["prev_page"]); ?>">上一页</a>
+        <?php if(($page["prev_page"] != 0)): ?><a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["prev_page"]); ?>">上一页</a>
+            <?php else: ?>
+            <a href="">上一页</a><?php endif; ?>
         <p><span class="page_now"><?php echo ($page["current_page"]); ?></span>/<span><?php echo ($page["pages"]); ?></span></p>
-        <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["next_page"]); ?>">下一页</a>
+        <?php if(($page["next_page"] != 0)): ?><a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["next_page"]); ?>">下一页</a>
+            <?php else: ?>
+            <a href="">下一页</a><?php endif; ?>
         <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["pages"]); ?>">末页</a>
     </div><?php endif; ?>
 		</div>

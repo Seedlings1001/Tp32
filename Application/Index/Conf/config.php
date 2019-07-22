@@ -8,4 +8,5 @@ return array(
     'DB_PORT' => null, // 端口
     'DB_PREFIX' => '', // 数据库表前缀
     'DEFAULT_MODULE'        =>  'Index',  // 默认模块
+    'ERROR_PAGE'            => 'Index/Index/Index',	// 错误定向页面
 );
