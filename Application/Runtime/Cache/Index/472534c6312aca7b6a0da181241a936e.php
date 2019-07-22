@@ -30,7 +30,7 @@
 		
 		<!--顶部栏-->
 		<div class="top_bar">
-			<a class="bar_l"></a>
+			<a href="javascript:window.history.back(-1);" class="bar_l"></a>
 			<h3>产品展示</h3>
 		</div>
 		
@@ -50,13 +50,13 @@
 							<span><?php echo ($vo["product_name"]); ?></span>
 						</a><?php endif; endforeach; endif; ?>
 			</div>
-			<div class="page">
-				<a>首页</a>
-				<a>上一页</a>
-				<p><span class="page_now">1</span>/<span>100</span></p>
-				<a>下一页</a>
-				<a>末页</a>
-			</div>
+			<?php if(($page["pages"] != 0)): ?><div class="page">
+        <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["first_page"]); ?>">首页</a>
+        <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["prev_page"]); ?>">上一页</a>
+        <p><span class="page_now"><?php echo ($page["current_page"]); ?></span>/<span><?php echo ($page["pages"]); ?></span></p>
+        <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["next_page"]); ?>">下一页</a>
+        <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["pages"]); ?>">末页</a>
+    </div><?php endif; ?>
 		</div>
 
 		<div class="index_bot">

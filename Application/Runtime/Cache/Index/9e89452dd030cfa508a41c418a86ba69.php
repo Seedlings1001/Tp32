@@ -2,13 +2,13 @@
 <html>
 
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<title></title>
-		<link href="/Public/style/css/style.css" type="text/css" rel="stylesheet" />
-		<link href="/Public/style/css/swiper.min.css" type="text/css" rel="stylesheet">
-		<script src="/Public/style/js/jquery-1.8.3.min.js"></script>
-	</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title></title>
+    <link href="/Public/style/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="/Public/style/css/swiper.min.css" type="text/css" rel="stylesheet">
+    <script src="/Public/style/js/jquery-1.8.3.min.js"></script>
+</head>
 
 	<body>
 		<!--头部-->
@@ -17,22 +17,21 @@
 			<a class="top_nav top_menu"></a>
 		</div>
 		<div class="menu_nav">
-			<div class="menu_txt">
-				<a href="index.html">网站首页</a>
-				<a href="company.html">公司简介</a>
-				<a href="product.html">产品展示</a>
-				<a href="case.html">工程案例</a>
-				<a href="device.html">公司设备</a>
-				<a href="half.html">半成品展示</a>
-				<a href="order.html">在线订单</a>
-				<a href="about.html">联系我们</a>
-			</div>
-
-		</div>
+    <div class="menu_txt">
+        <a href="<?php echo U('Index/Index/index');?>">网站首页</a>
+        <a href="<?php echo U('Index/Index/introduct');?>">公司简介</a>
+        <a href="<?php echo U('Index/Product/index');?>">产品展示</a>
+        <a href="<?php echo U('Index/Index/cases');?>">工程案例</a>
+        <a href="<?php echo U('Index/Device/index');?>">公司设备</a>
+        <a href="<?php echo U('Index/Half/index');?>">半成品展示</a>
+        <a href="<?php echo U('Index/Index/order');?>">在线订单</a>
+        <a href="<?php echo U('Index/Index/contact');?>">联系我们</a>
+    </div>
+</div>
 		
 		<!--顶部栏-->
 		<div class="top_bar">
-			<a class="bar_l"></a>
+			<a href="javascript:window.history.back(-1);" class="bar_l"></a>
 			<h3>工程案例</h3>
 		</div>
 		

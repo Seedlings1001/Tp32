@@ -6,10 +6,12 @@ namespace Index\Controller;
 use Index\Service\CategoryService;
 use Index\Service\Product\ProductConstant;
 use Index\Service\ProductService;
+use Index\Traits\Paginater;
 use Think\Controller;
 
 class ProductController extends Controller
 {
+    use Paginater;
 
     public function index()
     {
@@ -18,7 +20,8 @@ class ProductController extends Controller
         $categoryId = I('get.id');
         $category = CategoryService::category();
         $this->assign('category', $category);
-        $this->assign('product', ProductService::index(ProductConstant::PRODUCT, $categoryId));
+        $this->assign('product', ProductService::index($page, $pageSize, ProductConstant::PRODUCT, $categoryId));
+        $this->assign('page', $this->render(ProductConstant::PRODUCT, $categoryId));
         $this->display('index');
     }
 

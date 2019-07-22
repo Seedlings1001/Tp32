@@ -13,7 +13,7 @@
 
 <!--顶部栏-->
 <div class="top_bar">
-	<a class="bar_l"></a>
+	<a href="javascript:window.history.back(-1);" class="bar_l"></a>
 	<h3>公司设备</h3>
 </div>
 
@@ -34,13 +34,7 @@
 			</if>
 		</foreach>
 	</div>
-	<div class="page">
-		<a>首页</a>
-		<a>上一页</a>
-		<p><span class="page_now">1</span>/<span>100</span></p>
-		<a>下一页</a>
-		<a>末页</a>
-	</div>
+	<include file="Common:paginate" />
 </div>
 
 <div class="index_bot">
