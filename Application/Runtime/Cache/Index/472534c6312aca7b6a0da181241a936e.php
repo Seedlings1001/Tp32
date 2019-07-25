@@ -36,8 +36,12 @@
 		
 		<div class="product content">
 			<ul class="product_nav">
-				<li class="tab"><a href="<?php echo U('index');?>">全部</a></li>
-				<?php if(is_array($category)): foreach($category as $k=>$vo): ?><li><a href="<?php echo U('index?id='.$vo['type_id']);?>"><?php echo ($vo["type_name"]); ?></a></li><?php endforeach; endif; ?>
+				<?php if($flag == 0): ?><li class="tab"><a href="<?php echo U('index');?>">全部</a></li>
+					<?php else: ?>
+					<li><a href="<?php echo U('index');?>">全部</a></li><?php endif; ?>
+				<?php if(is_array($category)): foreach($category as $k=>$vo): if($k == $flag -1): ?><li class="tab"><a href="<?php echo U('index?id='.$vo['type_id']);?>"><?php echo ($vo["type_name"]); ?></a></li>
+						<?php else: ?>
+						<li><a href="<?php echo U('index?id='.$vo['type_id']);?>"><?php echo ($vo["type_name"]); ?></a></li><?php endif; endforeach; endif; ?>
 			</ul>
 			<div class="product_list">
 				<?php if(is_array($product)): foreach($product as $k=>$vo): if(($k == 0)): ?><a class="now" href="<?php echo U('detail?id='.$vo['id']);?>">
@@ -64,12 +68,12 @@
 		</div>
 
 		<div class="index_bot">
-			<a><img src="/Public/style/images/icon-3.png"><span>在线QQ</span></a>
-			<i class="line_throw"></i>
-			<a><img src="/Public/style/images/icon-4.png"><span>在线电话</span></a>
-			<i class="line_throw"></i>
-			<a class="scroll_top"><img src="/Public/style/images/icon-5.png"><span>返回顶部</span></a>
-		</div>
+    <a href="http://wpa.qq.com/msgrd?v=6&uin=1045348200&site=qq&menu=yes"><img src="/Public/style/images/icon-3.png"><span>在线QQ</span></a>
+    <i class="line_throw"></i>
+    <a href="tel:13641133307"><img src="/Public/style/images/icon-4.png"><span>在线电话</span></a>
+    <i class="line_throw"></i>
+    <a class="scroll_top"><img src="/Public/style/images/icon-5.png"><span>返回顶部</span></a>
+</div>
 
 		<script src="/Public/style/js/swiper.min.js"></script>
 		<script>

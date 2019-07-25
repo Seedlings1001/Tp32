@@ -18,9 +18,17 @@
 		
 		<div class="product content">
 			<ul class="product_nav">
-				<li class="tab"><a href="{:U('index')}">全部</a></li>
+				<if condition="$flag eq 0">
+					<li class="tab"><a href="{:U('index')}">全部</a></li>
+					<else />
+					<li><a href="{:U('index')}">全部</a></li>
+				</if>
 				<foreach name="category" item="vo" key="k">
-					<li><a href="{:U('index?id='.$vo['type_id'])}">{$vo.type_name}</a></li>
+					<if condition="$k eq $flag -1">
+						<li class="tab"><a href="{:U('index?id='.$vo['type_id'])}">{$vo.type_name}</a></li>
+						<else />
+						<li><a href="{:U('index?id='.$vo['type_id'])}">{$vo.type_name}</a></li>
+					</if>
 				</foreach>
 			</ul>
 			<div class="product_list">
@@ -41,13 +49,7 @@
 			<include file="Common:paginate" />
 		</div>
 
-		<div class="index_bot">
-			<a><img src="__PUBLIC__/style/images/icon-3.png"><span>在线QQ</span></a>
-			<i class="line_throw"></i>
-			<a><img src="__PUBLIC__/style/images/icon-4.png"><span>在线电话</span></a>
-			<i class="line_throw"></i>
-			<a class="scroll_top"><img src="__PUBLIC__/style/images/icon-5.png"><span>返回顶部</span></a>
-		</div>
+		<include file="Common:footer" />
 
 		<script src="__PUBLIC__/style/js/swiper.min.js"></script>
 		<script>

@@ -20,8 +20,8 @@
 			<div class="content">
 				<div class="index_sort">
 					<foreach name="category" item="vo" key="k">
-						<if condition="($k eq 0)">
-							<a class="cur">{$vo.type_name}</a>
+						<if condition="($k eq $flag - 1)">
+							<a class="cur" href="{:U('index?id=0')}">{$vo.type_name}</a>
 						<else />
 							<a href="{:U('index?id='.$vo['type_id'])}">{$vo.type_name}</a>
 						</if>
@@ -115,13 +115,7 @@
 			</div>
 		</div>
 
-		<div class="index_bot">
-			<a><img src="__PUBLIC__/style/images/icon-3.png"><span>在线QQ</span></a>
-			<i class="line_throw"></i>
-			<a><img src="__PUBLIC__/style/images/icon-4.png"><span>在线电话</span></a>
-			<i class="line_throw"></i>
-			<a class="scroll_top"><img src="__PUBLIC__/style/images/icon-5.png"><span>返回顶部</span></a>
-		</div>
+		<include file="Common:footer" />
 
 		<script src="__PUBLIC__/style/js/swiper.min.js"></script>
 		<script>

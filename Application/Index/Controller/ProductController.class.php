@@ -22,6 +22,7 @@ class ProductController extends Controller
         $this->assign('category', $category);
         $this->assign('product', ProductService::index($page, $pageSize, ProductConstant::PRODUCT, $categoryId));
         $this->assign('page', $this->render(ProductConstant::PRODUCT, $categoryId));
+        $this->assign('flag', $categoryId);
         $this->display('index');
     }
 

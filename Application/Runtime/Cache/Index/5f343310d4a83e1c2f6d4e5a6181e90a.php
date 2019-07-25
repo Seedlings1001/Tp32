@@ -37,7 +37,7 @@
 			</div>
 			<div class="content">
 				<div class="index_sort">
-					<?php if(is_array($category)): foreach($category as $k=>$vo): if(($k == 0)): ?><a class="cur"><?php echo ($vo["type_name"]); ?></a>
+					<?php if(is_array($category)): foreach($category as $k=>$vo): if(($k == $flag - 1)): ?><a class="cur" href="<?php echo U('index?id=0');?>"><?php echo ($vo["type_name"]); ?></a>
 						<?php else: ?>
 							<a href="<?php echo U('index?id='.$vo['type_id']);?>"><?php echo ($vo["type_name"]); ?></a><?php endif; endforeach; endif; ?>
 					<a href="<?php echo U('Index/Product/index');?>">查看更多>></a>
@@ -124,12 +124,12 @@
 		</div>
 
 		<div class="index_bot">
-			<a><img src="/Public/style/images/icon-3.png"><span>在线QQ</span></a>
-			<i class="line_throw"></i>
-			<a><img src="/Public/style/images/icon-4.png"><span>在线电话</span></a>
-			<i class="line_throw"></i>
-			<a class="scroll_top"><img src="/Public/style/images/icon-5.png"><span>返回顶部</span></a>
-		</div>
+    <a href="http://wpa.qq.com/msgrd?v=6&uin=1045348200&site=qq&menu=yes"><img src="/Public/style/images/icon-3.png"><span>在线QQ</span></a>
+    <i class="line_throw"></i>
+    <a href="tel:13641133307"><img src="/Public/style/images/icon-4.png"><span>在线电话</span></a>
+    <i class="line_throw"></i>
+    <a class="scroll_top"><img src="/Public/style/images/icon-5.png"><span>返回顶部</span></a>
+</div>
 
 		<script src="/Public/style/js/swiper.min.js"></script>
 		<script>

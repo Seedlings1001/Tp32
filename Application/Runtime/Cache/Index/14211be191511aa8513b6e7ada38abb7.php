@@ -50,19 +50,23 @@
 	</div>
 	<?php if(($page["pages"] != 0)): ?><div class="page">
         <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["first_page"]); ?>">首页</a>
-        <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["prev_page"]); ?>">上一页</a>
+        <?php if(($page["prev_page"] != 0)): ?><a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["prev_page"]); ?>">上一页</a>
+            <?php else: ?>
+            <a href="">上一页</a><?php endif; ?>
         <p><span class="page_now"><?php echo ($page["current_page"]); ?></span>/<span><?php echo ($page["pages"]); ?></span></p>
-        <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["next_page"]); ?>">下一页</a>
+        <?php if(($page["next_page"] != 0)): ?><a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["next_page"]); ?>">下一页</a>
+            <?php else: ?>
+            <a href="">下一页</a><?php endif; ?>
         <a href="?page_size=<?php echo ($page["page_size"]); ?>&page=<?php echo ($page["pages"]); ?>">末页</a>
     </div><?php endif; ?>
 </div>
 
 <div class="index_bot">
-	<a><img src="/Public/style/images/icon-3.png"><span>在线QQ</span></a>
-	<i class="line_throw"></i>
-	<a><img src="/Public/style/images/icon-4.png"><span>在线电话</span></a>
-	<i class="line_throw"></i>
-	<a class="scroll_top"><img src="/Public/style/images/icon-5.png"><span>返回顶部</span></a>
+    <a href="http://wpa.qq.com/msgrd?v=6&uin=1045348200&site=qq&menu=yes"><img src="/Public/style/images/icon-3.png"><span>在线QQ</span></a>
+    <i class="line_throw"></i>
+    <a href="tel:13641133307"><img src="/Public/style/images/icon-4.png"><span>在线电话</span></a>
+    <i class="line_throw"></i>
+    <a class="scroll_top"><img src="/Public/style/images/icon-5.png"><span>返回顶部</span></a>
 </div>
 
 <script src="/Public/style/js/swiper.min.js"></script>

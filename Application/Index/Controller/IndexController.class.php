@@ -14,7 +14,7 @@ class IndexController extends Controller
 
     public function index()
     {
-        $categoryId = I('get.id');
+        $categoryId = I('get.id', 0);
         $page = I('get.page', 1);
         $pageSize = I('get.page_size', 4);
         $category = CategoryService::category();
@@ -26,6 +26,7 @@ class IndexController extends Controller
         $contact = CompanyService::contact();
         $this->assign('contact', $contact);
         $device = ProductService::index($page, $pageSize, ProductConstant::DEVICE);
+        $this->assign('flag', $categoryId);
         $this->assign('device', $device);
         $this->display('index');
     }

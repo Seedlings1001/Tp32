@@ -22,6 +22,7 @@ class HalfController extends Controller
         $this->assign('category', $category);
         $this->assign('product', ProductService::index($page , $pageSize, ProductConstant::HALF, $categoryId));
         $this->assign('page', $this->render(ProductConstant::HALF, $categoryId));
+        $this->assign('flag', $categoryId);
         $this->display('index');
     }
 
