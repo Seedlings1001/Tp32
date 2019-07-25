@@ -37,14 +37,14 @@
 		<div class="content order">
 			<form>
 				<ul class="order_list">
-					<li><label>标题：</label><input type="text" value=""><span>*留言主题</span></li>
-					<li><label>地址：</label><input type="text"></li>
-					<li><label>姓名：</label><input type="text"><span>*您的姓名</span></li>
-					<li><label>单位：</label><input type="text"></li>
-					<li><label>电邮：</label><input type="text"><span>*您的EMAIL</span></li>
-					<li><label>电话：</label><input type="text"><span>*您的联系电话</span></li>
-					<li><label>传真：</label><input type="text"></li>
-					<li><label>内容：</label><textarea></textarea></li>
+					<li><label>标题：</label><input name="subject" type="text" value=""><span>*留言主题</span></li>
+					<li><label>地址：</label><input name="address" type="text"></li>
+					<li><label>姓名：</label><input name="name" type="text"><span>*您的姓名</span></li>
+					<li><label>单位：</label><input name="company" type="text"></li>
+					<li><label>电邮：</label><input name="email" type="text"><span>*您的EMAIL</span></li>
+					<li><label>电话：</label><input name="tel" type="text"><span>*您的联系电话</span></li>
+					<li><label>传真：</label><input name="fax" type="text"></li>
+					<li><label>内容：</label><textarea name="content"></textarea></li>
 					<li style="text-align: center;"><a class="btn send_btn">发送</a><a class="btn clear_btn">重置</a></li>
 				</ul>
 			</form>
