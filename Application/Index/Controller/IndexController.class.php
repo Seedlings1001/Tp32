@@ -45,7 +45,7 @@ class IndexController extends Controller
 
     public function introduct()
     {
-        $introduct = CompanyService::introduct();
+        $introduct = CompanyService::brief();
         $this->assign('introduct', $introduct);
         $this->display('introduct');
     }
