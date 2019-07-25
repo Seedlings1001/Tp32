@@ -35,7 +35,7 @@
 			<h3>在线订单</h3>
 		</div>
 		<div class="content order">
-			<form>
+			<form id="subform" method="POST" action="<?php echo U('Index/Index/email');?>">
 				<ul class="order_list">
 					<li><label>标题：</label><input name="subject" type="text" value=""><span>*留言主题</span></li>
 					<li><label>地址：</label><input name="address" type="text"></li>
@@ -45,18 +45,18 @@
 					<li><label>电话：</label><input name="tel" type="text"><span>*您的联系电话</span></li>
 					<li><label>传真：</label><input name="fax" type="text"></li>
 					<li><label>内容：</label><textarea name="content"></textarea></li>
-					<li style="text-align: center;"><a class="btn send_btn">发送</a><a class="btn clear_btn">重置</a></li>
+					<li style="text-align: center;"><a href="javascript:;" onclick="document.getElementById('subform').submit();" class="btn send_btn">发送</a><a class="btn clear_btn">重置</a></li>
 				</ul>
 			</form>
 		</div>
 
 		<div class="index_bot">
-			<a><img src="/Public/style/images/icon-3.png"><span>在线QQ</span></a>
-			<i class="line_throw"></i>
-			<a><img src="/Public/style/images/icon-4.png"><span>在线电话</span></a>
-			<i class="line_throw"></i>
-			<a class="scroll_top"><img src="/Public/style/images/icon-5.png"><span>返回顶部</span></a>
-		</div>
+    <a href="http://wpa.qq.com/msgrd?v=6&uin=1045348200&site=qq&menu=yes"><img src="/Public/style/images/icon-3.png"><span>在线QQ</span></a>
+    <i class="line_throw"></i>
+    <a href="tel:13641133307"><img src="/Public/style/images/icon-4.png"><span>在线电话</span></a>
+    <i class="line_throw"></i>
+    <a class="scroll_top"><img src="/Public/style/images/icon-5.png"><span>返回顶部</span></a>
+</div>
 
 		<script src="/Public/style/js/swiper.min.js"></script>
 		<script>
@@ -73,13 +73,21 @@
 					}
 				})
 				$('.clear_btn').click(function(){
-					console.log('sdfasdfs')
 					$('.order_list input').val('');
 				})
 				$('.scroll_top').click(function(){
 					window.scrollTo(0,0);
 				})
 			})
+		</script>
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?4ced54e4876ca5921cde012b4191166b";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
 		</script>
 	</body>
 

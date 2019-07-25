@@ -73,15 +73,17 @@ class IndexController extends Controller
             //链接域名邮箱的服务器地址
             $mail->Host = 'smtp.qq.com';
             //smtp登录的账号 这里填入字符串格式的qq号即可
-            $mail->Username ='878693481@qq.com';
+            $mail->Username ='811472925@qq.com';
             //smtp登录的密码 这里填入“独立密码” 若为设置“独立密码”则填入登录qq的密码 建议设置“独立密码”
-            $mail->Password = 'qarbcbdxlywvbeia';
-            $mail->From = "878693481@qq.com";
+            $mail->Password = 'zfvlufiugtcqbehi';
+            $mail->From = "811472925@qq.com";
             //设置使用ssl加密方式登录鉴权
-            $mail->SMTPSecure = '手机端网站';
+            $mail->SMTPSecure = 'ssl';
             //设置发件人姓名（昵称） 任意内容，显示在收件人邮件的发件人邮箱地址前的发件人姓名
-            $mail->FromName = 'asd';
+            $mail->FromName = '手机端网站';
             $mail->CharSet = "utf-8";
+            $mail->AddAddress('bjsdly@126.com');
+            $mail->AddAddress('sysdlysx@163.com');
             $mail->AddAddress('381493538@qq.com');
             //邮件正文是否为html编码 注意此处是一个方法 不再是属性 true或false
             $mail->isHTML(true);
